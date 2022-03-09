@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/**logo inicio**/
+.logo{
+    height: 75px;
+}
+nav{
+    background-color: #704214;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 50px;
+}  
+body{
+    background-color: #DEB887;
+    padding-bottom: 50px;
+}
+.tabla{background-color:rgb(184, 184, 184);}
+#cachito{background-color: #704214;
+    color:rgb(255,255,255);
+}
+#pan-enrollado{background-color:#704214;
+    color:white;
+}
+#cholitas{background-color:#704214;
+    color: white;
+}
+#empanada{background-color:#704214;
+    color: white;
+}
+#panleche{background-color:#704214;
+    color: white;
+}
+#panchoco{background-color:#704214;
+    color: white;
+}
+
+/** recetas comentarios **/
+
+nav{
+    background: #88421D;
+    height: 100px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 60px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #DEB887;
+    transition: .5s;
+  
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/imgs/icono.png">
+    <title>Opiniones-Pancito de casa</title>
+    <link rel="stylesheet" href="/estilos/contacts.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+        <a href="#" class="enlace">
+            <a href="Main.html"><img src="/imgs/logopancito.png" alt="" class="logo"></a>
+        </a>
+        
+    </nav>
+    </header>
+
+    <h1>Envianos tu opinión</h1>
+  
+    <form id="form">
+ 
+        <div class="form-control">
+            <label for="nombre" id="label-nombre">
+                Nombre
+            </label>
+ 
+            <input type="text"
+                   id="nombre"
+                   placeholder="Ingrese su nombre" />
+        </div>
+  
+        <div class="form-control">
+            <label for="correo" id="label-correo">
+                Correo electrónico
+            </label>
+ 
+            <input type="email"
+                   id="correo"
+                   placeholder="Ingrese su correo electrónico" />
+        </div>
+  
+  
+        <div class="form-control">
+            <label for="telf" id="label-telf">
+                Número de teléfono
+            </label>
+            
+            <input type="text"
+            id="telf"
+            placeholder="Ingrese su número de teléfono" />
+ </div>
+
+
+  
+        <div class="form-control">
+            <label>
+
+                -¿Alguna vez ha provado nuestro producto? Lo recomenderias a otra persona?
+            </label>
+ 
+            
+            <label for="opcion1">
+                <input 
+                type="radio"
+                value="a"
+                name="opcion1">Si
+                       
+            </label>
+            <label for="opcion2">
+                <input type="radio"
+                       value="b"
+                       name="opcion2">No
+            </label>
+            <label for="opcion3">
+                <input type="radio"
+                       value="c"
+                       name="opcion3">Tal vez
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>Tipos de pancitos (marque todos los que le agraden)
+            </label>
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Enrollados</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Gusanitos</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Empanadas rellenas</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Pan de chocolate</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Pan de leche</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Pan integral</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Integral con frutos secos</input></label>
+            <label for="inp-8">
+                <input type="checkbox"
+                       name="inp">Cholitas</input></label>
+
+        </div>
+  
+        <div class="form-control">
+            <label for="mensaje">
+                Mensaje
+            </label>
+ 
+            
+            <textarea name="mensaje" id="mensaje"
+                placeholder="Escribe tu mensaje :D">
+            </textarea>
+        </div>
+  
+        
+        <button type="submit" value="submit">
+            Enviar
+        </button>
+    </form>
+</body>
+</html>

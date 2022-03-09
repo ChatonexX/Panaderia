@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/log_in.css">
+    <title>
+        Log-in Pancitos de casa
+    </title>
+</head>
+
+    <body>
+        <h1>Log-in</h1>
+      
+       
+        <form name="form" action="index.html" id="form">
+     
+            
+            <div class="form-control">
+                <label for="Correo" id="label-usuario">
+                    Ingrese su correo
+                </label>
+     
+               
+                <input name="Correo" type="text"
+                       id="Usuario"
+                        placeholder="Ingresa tu correo" required>
+            </div>
+      
+            <div class="form-control">
+                <label for="clave" id="label-clave">
+                    Contraseña
+                </label>
+     
+                
+                <input name="clave" type="password"
+                       id="clave"
+                       placeholder="Ingresa tu contraseña" required>
+            </div>
+      
+           
+           
+           <a href="Main.html"><button onclick=go() type="button" value="submit">
+                Iniciar
+            </button></a>
+        
+                
+            
+        </form>
+    </body>
+    <script lang="JavaScript">
+function go(){
+
+if (document.form.clave.value=='123' && document.form.usuario.value=='Misaki'){ 
+        document.form.submit(Number); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+
+    </script>
+      
+</html>

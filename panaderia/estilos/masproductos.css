@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#lista li{
+ background-color:#88421e;
+ color: white;
+ font-size:large;
+ font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+ width: 110px;
+ float:right ;
+ display: block;
+ list-style: none;
+ padding-left: 3px;
+ padding-right: 10px;
+ padding-top: 10px;
+}
+
+
+nav{
+    background-color: #88421e;
+    height: max-content;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+html{
+    background-image: url(/imgs/fondosam.jpg);
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover ;
+    margin: 0;
+    padding: 0;
+    overflow:visible;
+    object-fit:scale-down;
+    padding-bottom: 60px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+#img1{
+    border-style:ridge;
+    border-color: tomato;
+    object-fit: cover;
+    margin: 50px;
+ }
+#img2{
+    border-style:ridge;
+    border-color: tomato;
+    object-fit: cover;
+    margin: 50px;
+}
+#img3{
+    border-style:ridge;
+    border-color: tomato;
+    object-fit: cover;
+    margin: 50px;
+}
+#img4{ border-style:ridge;
+    border-color: tomato;
+    object-fit: cover;
+    margin: 50px;
+
+}
+#img5{ 
+ border-style:ridge;
+    border-color: tomato;
+    object-fit: cover;
+    margin: 50px;
+}
+#img6{
+    border-style:ridge;
+    border-color: tomato;
+    object-fit: cover;
+    margin: 50px;
+}
+#img7{
+    border-style:ridge;
+    border-color: tomato;
+    object-fit: cover;
+    margin: 50px;
+}
+#img8{ 
+    border-style:ridge;
+    border-color: tomato;
+    object-fit: cover;
+    margin: 50px;
+}
+
+#l1{
+     display: inline-block;
+       list-style: none;
+       padding-left: 30px;
+       color: tomato;
+       font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+#l2{
+     display: inline-block;
+       list-style: none;
+       padding-left: 115px;
+       color: tomato;
+       font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+#l3{
+     display: inline-block;
+       list-style: none;
+       padding-left: 150px;
+       color: tomato;
+       font-family:Georgia, 'Times New Roman', Times, serif, sans-serif
+}
+#l4{
+     display: inline-block;
+       list-style: none;
+       padding-left: 85px;
+       color: tomato;
+       font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+#logo{
+    float: left;
+    box-align: top;
+}
+.precios{
+    list-style: none;
+}
